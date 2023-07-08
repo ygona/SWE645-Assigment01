@@ -1,7 +1,7 @@
 pipeline{
 	agent any
 	environment {
-		DOCKERHUB_PASS = Yamini@2304
+		DOCKERHUB_PASS = 'Yamini@2304'
 	}
 	stages{
 		stage("Building the Student Survey Image"){
